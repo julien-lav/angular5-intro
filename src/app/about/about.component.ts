@@ -19,7 +19,7 @@ export class AboutComponent implements OnInit {
   }
 
   ngOnInit() {
-    this._data.goal.subcribe(res => this.goals = res);
+    // this._data.goal.subcribe(res => this.goals = res);
   }
   sendMeHome() {
     this.router.navigate(['']);
